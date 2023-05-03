@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #393646;
+}
+
+.sub_container{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container #inputFild{
+    background: #d4d3d1;
+    width: 700px;
+    height: auto;
+    text-align: center;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container #inputFild label{
+    font-size: 26px;
+    margin-right: 5px;
+}
+.container #inputFild input{
+    font-size: 20px;
+    text-align: center;
+    padding: 7px;
+}
+.container #inputFild button{
+    padding: 10px 40px;
+    font-size: 20px;
+    margin-left: 5px;
+    color: whitesmoke;
+    background-color: #E74646 ;
+    border: 1px solid #E74646;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.container .sub_container .addTask_name{
+    background: #d4d3d1;
+    width: 700px;
+    height: auto;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+h2{
+    text-transform: capitalize;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #393646;
+    border-bottom: 2px solid #E76161;
+    color:whitesmoke;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+.container .sub_container .addTask_name .incoplete_Tasks{
+    width: 50%;
+    margin: 50px 20px 50px 15px;
+    background-color: #E74646;
+    padding: 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    color:whitesmoke;
+}
+.container .sub_container .addTask_name .incoplete_Tasks p{
+    font-size: 20px;
+    letter-spacing: 1px;
+    background-color: #ebe8e8;
+    color:#393646;
+    font-weight: 500;
+    padding: 1px 10px;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+   margin-bottom: 5px;
+   padding: 5px;
+}
+
+.container .sub_container .addTask_name .incoplete_Tasks .checkbox{
+    margin-left: 30px;
+    margin: 10px 5px 10px 30px;
+    border-color:#E74646;
+}
+.container .sub_container .addTask_name .incoplete_Tasks label{
+    font-size: 20pxpx;
+}
+.container .sub_container .addTask_name .completed_task{
+    width: 50%;
+    margin: 50px 20px 50px 0;
+    padding: 10px;
+    background-color: #E74646;
+    color:whitesmoke;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+
+}
+.container .sub_container .addTask_name .completed_task p{
+    margin: 10px 5px 10px 30px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    background-color: #ebe8e8;
+    color:#393646;
+    font-weight: 500;
+    padding: 10px 10px;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    text-align: center;
+}
+.container .sub_container .addTask_name .completed_task p span{
+    font-size: 17px;
+    margin-left: 45px;
+    background-color: #E74646;
+    color:whitesmoke;
+    padding: 5px 10px;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    cursor: pointer;
+}
