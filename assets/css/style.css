@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #DBDFEA;
+   
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+.container #time span{
+    font-size: 70px;
+    padding: 0 5px;
+    margin-bottom: 20px;
+    color:#333333;
+    font-weight: bolder;
+}
+.container #time stong {
+    font-size: 25px;
+}
+.container .btn_div{
+    display: flex;
+    flex-direction: row;
+}
+.container .btn_div .btn{
+    padding: 10px 50px;
+    margin: 70px 5px;
+    background-color: #B04759;
+    font-size: 20px;
+    color:whitesmoke;
+    letter-spacing: 1px;
+    font-weight: 500;
+    
+}
+
+
